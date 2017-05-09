@@ -1,0 +1,112 @@
+/*.map-responsive{
+    overflow:hidden;
+    padding-bottom:75%;
+
+    position:relative;
+    height:0;
+} */
+
+
+
+
+
+
+/*#map {
+
+    height: 420px;
+    width: 553px;
+
+
+}*/
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+#map_container{
+    position: relative;
+}
+
+
+
+#map {
+
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 100%;
+    padding-top: 100px;
+    position: relative;
+
+
+}
+#map1{
+    height: 600px;
+}
+.infoWindowContent {
+    font-size: 14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+
+
+
+#floating-panel {
+    position: absolute;
+    top: 50px;
+    left: 23%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+#floating-panel {
+    margin-left: -300px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4a8fff; /* #f4511e */
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: inherit;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00BB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
